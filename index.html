@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Patrimoine Culturel du Maroc</title>
+    <link rel="stylesheet" href="f1.css">
+    
+    
+    <style>
+        
+        header {
+            background-color: #8B4513;
+            text-align: center;
+            padding: 40px;
+            margin-bottom: 0;
+        }
+        
+        header h1 {
+            font-size: 36px;
+            color: white;
+            text-shadow: 3px 3px 6px black;
+            margin: 20px;
+            background-color: #654321;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+        }
+        
+        .photo-profil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        
+       
+        .qr-code {
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid #8B4513;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+        
+        .qr-code img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .qr-texte {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        
+        .partie-histoire {
+            background-color: #FFF5EE;
+        }
+        
+        .partie-patrimoine {
+            background-color: white;
+        }
+        
+        .partie-langues {
+            background-color: #F0FFF0;
+        }
+        
+        
+        .boite-dynastie {
+            background-color: #FFFACD;
+            padding: 15px;
+            margin: 15px 0;
+            border: 2px solid #DAA520;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .titre-dynastie {
+            color: #8B4513;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+       
+        .bouton-retour-haut {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #8B4513;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .bouton-email {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #A0522D;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+        
+        .bouton-retour-haut:hover, .bouton-email:hover {
+            background-color: #654321;
+        }
+        
+       
+        .copyright {
+            background-color: #444;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #DAA520;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #FFE4B5;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <div class="qr-code">
+        <img src="https://cdn.qr-code-generator.com/qrcode-preview?background_color=%23FFFFFF&foreground_color=%23000000&marker_left_inner_color=%23000000&marker_left_outer_color=%23000000&marker_right_inner_color=%23000000&marker_right_outer_color=%23000000&marker_bottom_inner_color=%23000000&marker_bottom_outer_color=%23000000&marker_left_template=version17&marker_right_template=version17&marker_bottom_template=version17&qr_code_text=https%3A%2F%2Fqrco.de%2FbgajS2&frame_name=no-frame&frame_color=&frame_text=&frame_text_color=&Expires=1769788943&Signature=L0BK8YH5Y-7UAJXSwbdlZl92zvRRfTqHL5V2ghRZMzJ8lIj6X4GcKVLczKTKS3hvQBZxJmbGCH-HyQENp4qQn1CdgCcQY0iQeJ4PJkAdaLNn3AMqS~yLtKio9SwL3q5DXUX--Uj9e3YxiJ3FtuEKGo33RdUcyltSN8klCahpuzlacnxtZsSuRnvGhDNk5e0z3Wldlsa9eq-paJSNvRc5DqwLwnNGa1ogKXgrwGbEGkD0zKdq6NxacvAORo08V2GnoP~ihmchOj~kCj-atrqcMHk5jmh7sLTbLWlCk-uBNLl4i8xsH2C3kTkqWFFnwdQWlLktqa0SPx7eTh8KWuhKjQ__&Key-Pair-Id=KKMPOJU8AYATR" alt="Code QR GitHub">
+        <p class="qr-texte">Mon GitHub</p>
+    </div>
+
+    
+    <header id="debut">
+        <img src="https://imgs.search.brave.com/ishe1b3l-aSJQoSnITw0mwM-A-uW4bfJlLh5nIrNVbI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bXVyZXRwcmVzdGln/ZS5jb20vaW1hZ2Vz/L2Jsb2dzL21hcm9j/LmpwZw" >
+        <h1>Le Patrimoine Culturel du Maroc</h1>
+        <p style="color: #FFE4B5; font-size: 18px; text-shadow: 1px 1px 3px black;">Histoire, Culture et Traditions Marocaines</p>
+    </header>
+
+   
+    <nav>
+        <ul>
+            <li><a href="#histoire">Histoire</a></li>
+            <li><a href="#patrimoine">Sites UNESCO</a></li>
+            <li><a href="#artisanat">Artisanat</a></li>
+            <li><a href="#langues">Langues</a></li>
+            <li><a href="#edition">Édition</a></li>
+        </ul>
+    </nav>
+
+   
+    <main>
+        
+        
+        <section id="histoire" class="section-contenu partie-histoire">
+            <h2>L'Histoire du Maroc</h2>
+            
+            <article class="boite-info">
+                <h3>Les Berbères : Les Premiers Habitants</h3>
+                <p>Les Berbères sont les <span class="texte-important">premiers habitants du Maroc</span>. Ce peuple autochtone d'Afrique du Nord a des origines très anciennes qui remontent à plusieurs millénaires. Ils étaient organisés en tribus et en confédérations.</p>
+                <p>Les Berbères ont créé une culture très riche avec un grand attachement à la terre et une hospitalité légendaire. Dans l'Antiquité, ils ont fondé des royaumes puissants comme la <strong>Maurétanie</strong> et la <strong>Numidie</strong>.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>L'Influence de Carthage et de Rome</h3>
+                <p>Au premier millénaire avant Jésus-Christ, la ville de Carthage s'est développée en Afrique du Nord. Cela a créé beaucoup de contacts avec les Berbères à travers le commerce et les échanges culturels.</p>
+                <p>Plus tard, les Romains ont conquis la région. Le Maroc est devenu la <span class="texte-important">Maurétanie Tingitane</span> dans l'Empire romain. Les Romains ont construit des villes, des routes et introduit leur civilisation.</p>
+                <p>Aujourd'hui on peut encore voir des ruines romaines à <strong>Volubilis</strong> et <strong>Lixus</strong>.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>L'Arrivée de l'Islam (7ème-8ème siècles)</h3>
+                <p>La conquête musulmane du Maroc a commencé en 682 avec le général arabe <strong>Oqba Ibn Nafi</strong>. Les Berbères ont résisté au début, mais petit à petit ils se sont convertis à l'Islam.</p>
+                <p><strong>Facteurs de conversion :</strong></p>
+                <ul class="liste-personnalisee">
+                    <li>Les missionnaires musulmans et leur prédication</li>
+                    <li>Le message d'égalité et de justice de l'Islam</li>
+                    <li>Les mariages entre Arabes et Berbères</li>
+                    <li>Les avantages dans l'administration</li>
+                </ul>
+            </article>
+
+            <h3 style="text-align: center; color: #8B4513; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">Les Grandes Dynasties Islamiques</h3>
+            
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Idrissides (788-974)</p>
+                <p><strong>Fondateur :</strong> Idris Ier, descendant du Prophète Mohammed</p>
+                <p>Cette dynastie a fondé la ville de <span class="texte-important">Fès en 789</span>. Fès est devenue un grand centre religieux et intellectuel. C'est le premier État musulman indépendant du Maroc.</p>
+            </div>
+
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Almoravides (1056-1147)</p>
+                <p><strong>Origine :</strong> Sahara occidental</p>
+                <p>Fondés par Abdallah Ibn Yasin, ils ont unifié le Maroc et l'Andalousie. Ils étaient connus pour leur discipline religieuse et leur armée puissante. Leur héritage : la <span class="texte-important">Mosquée Koutoubia à Marrakech</span>.</p>
+            </div>
+
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Almohades (1121-1269)</p>
+                <p><strong>Fondateur :</strong> Ibn Tumart</p>
+                <p>Mouvement réformateur du Haut Atlas. L'apogée était sous Yaqub al-Mansur. Héritages architecturaux importants : la <span class="texte-important">Giralda de Séville</span> et la <span class="texte-important">Tour Hassan de Rabat</span>.</p>
+            </div>
+
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Mérinides (1244-1465)</p>
+                <p><strong>Origine :</strong> Est du Maroc</p>
+                <p>Ils ont restauré l'ordre dans le pays. Ils ont embelli Fès et Meknès avec de nombreuses mosquées et medersas (écoles coraniques). Fès est devenue un grand centre intellectuel.</p>
+            </div>
+
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Saadiens (1554-1659)</p>
+                <p><strong>Origine :</strong> Sud du Maroc (chérifs)</p>
+                <p>Ils ont combattu les Portugais et unifié le pays. L'apogée était sous Ahmed al-Mansur. Héritage : les <span class="texte-important">Tombeaux Saadiens à Marrakech</span>.</p>
+            </div>
+
+            <div class="boite-dynastie">
+                <p class="titre-dynastie">Les Alaouites (depuis 1666)</p>
+                <p><strong>Dynastie actuelle</strong></p>
+                <p>Originaires du Tafilalet. Consolidation sous Moulay Ismaïl (capitale : Meknès). Indépendance avec Mohammed V en 1956. Modernisation sous Hassan II et réformes sous Mohammed VI.</p>
+            </div>
+
+            <article class="boite-info">
+                <h3>Le Protectorat Français et Espagnol (1912-1956)</h3>
+                <p>De 1912 à 1956, le Maroc était sous protectorat. Le pays était divisé en deux zones : française (la majorité) et espagnole (le Rif au nord). Tanger était une zone internationale.</p>
+                <p>Le Sultan gardait son titre mais les Français et Espagnols contrôlaient vraiment le pays.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>L'Indépendance (1956)</h3>
+                <p>En 1956, le Maroc a retrouvé son indépendance. Le roi <strong>Mohammed V</strong> est revenu triomphalement. En 1962, une nouvelle Constitution a été adoptée créant une monarchie constitutionnelle.</p>
+                <p>Les défis étaient nombreux : unifier le pays, développer l'économie, créer un système éducatif moderne.</p>
+            </article>
+        </section>
+
+       
+        <section id="patrimoine" class="section-contenu partie-patrimoine">
+            <h2>Les 9 Sites UNESCO du Maroc</h2>
+            
+            <p style="font-size: 18px; margin-bottom: 20px;">
+                Le Maroc possède <span class="texte-important">9 sites classés au patrimoine mondial de l'UNESCO</span>. 
+                Ces sites montrent la grande richesse historique et culturelle du pays.
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom du Site</th>
+                        <th>Type</th>
+                        <th>Année UNESCO</th>
+                        <th>Caractéristiques</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Médina de Fès</strong></td>
+                        <td>Ville médiévale</td>
+                        <td>1981</td>
+                        <td>Plus de 9000 ruelles, Al-Qarawiyyin (plus ancienne université du monde), médersas, souks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Médina de Marrakech</strong></td>
+                        <td>Ville impériale</td>
+                        <td>1985</td>
+                        <td>Palais Bahia, jardins Ménara, place Jemaa el-Fnaa</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ksar d'Aït Benhaddou</strong></td>
+                        <td>Village fortifié</td>
+                        <td>1987</td>
+                        <td>Architecture en terre, route des caravanes (films : Gladiator, Star Wars)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meknès</strong></td>
+                        <td>Ville impériale</td>
+                        <td>1996</td>
+                        <td>Portes monumentales (Bab Mansour), écuries royales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Volubilis</strong></td>
+                        <td>Ruines romaines</td>
+                        <td>1997</td>
+                        <td>Arc de Caracalla, mosaïques, ancienne capitale romaine</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tétouan</strong></td>
+                        <td>Médina historique</td>
+                        <td>1997</td>
+                        <td>Architecture andalouse (15-17ème siècles)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Essaouira</strong></td>
+                        <td>Ville fortifiée</td>
+                        <td>2001</td>
+                        <td>Port, murailles, centre artistique</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mazagan (El Jadida)</strong></td>
+                        <td>Forteresse portugaise</td>
+                        <td>2004</td>
+                        <td>Architecture militaire du 16ème siècle</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rabat</strong></td>
+                        <td>Capitale</td>
+                        <td>2012</td>
+                        <td>Mélange patrimoine arabo-musulman et modernité</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Types de Patrimoine</h3>
+            
+            <article class="boite-info">
+                <h3>Patrimoine Matériel</h3>
+                <p><strong>Définition :</strong> Ce sont les objets, bâtiments et sites qu'on peut toucher et voir.</p>
+                <ul class="liste-personnalisee">
+                    <li><strong>Architecture :</strong> Médinas, kasbahs, riads, mosquées</li>
+                    <li><strong>Artisanat :</strong> Tapis, zellige, objets en cuivre</li>
+                    <li><strong>Archéologie :</strong> Ruines romaines, mosaïques anciennes</li>
+                    <li><strong>Naturel :</strong> Oasis, montagnes de l'Atlas</li>
+                </ul>
+            </article>
+
+            <article class="boite-info">
+                <h3>Patrimoine Immatériel</h3>
+                <p><strong>Définition :</strong> Ce sont les traditions, savoirs et pratiques transmis de génération en génération.</p>
+                <ul class="liste-personnalisee">
+                    <li><strong>Musique Gnaoua :</strong> Musique traditionnelle avec fusion jazz</li>
+                    <li><strong>Ahidous :</strong> Danse en cercle du Moyen Atlas</li>
+                    <li><strong>Contes oraux :</strong> Histoires racontées (Hikayat)</li>
+                    <li><strong>Mariages :</strong> Cérémonies qui durent 3 à 7 jours</li>
+                    <li><strong>Médecine traditionnelle :</strong> Plantes médicinales</li>
+                </ul>
+            </article>
+        </section>
+
+       
+        <section id="artisanat" class="section-contenu">
+            <h2>L'Artisanat Traditionnel Marocain</h2>
+            
+            <p style="font-size: 18px;">
+                L'artisanat marocain est un <span class="texte-important">savoir-faire ancestral</span> transmis de père en fils 
+                et de mère en fille depuis des siècles.
+            </p>
+
+            <article class="boite-info">
+                <h3>🧶 Tapis et Textiles</h3>
+                <p>Les tapis berbères sont faits à la main avec 100 à 200 nœuds par décimètre carré. Les motifs géométriques ont des significations : le losange = protection, le triangle = fertilité.</p>
+                <p>Les couleurs viennent de teintures naturelles : indigo (bleu), cochenille (rouge), henné (orange).</p>
+                <p><strong>Régions principales :</strong> Haut Atlas, Moyen Atlas, Sahara</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>🎨 Le Zellige</h3>
+                <p>Le zellige est une mosaïque de faïence. Les artisans découpent des petits carrés au ciseau puis les assemblent sans ciment pour créer des motifs arabesques et géométriques.</p>
+                <p>L'apprentissage dure entre 5 et 10 ans ! Les villes principales : Fès, Tanger, Meknès.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>🏺 Céramique Peinte</h3>
+                <p>La poterie marocaine est faite au tour et peinte à la main. Les couleurs typiques : bleu cobalt, turquoise, brun.</p>
+                <p>C'est un héritage de l'époque andalouse. Les motifs sont floraux et géométriques.</p>
+                <p><strong>Villes célèbres :</strong> Safi, Fès, Asila</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>⚒️ Travail du Cuivre et du Bois</h3>
+                <p><strong>Cuivre :</strong> Les artisans repoussent et cisèlent le cuivre pour créer des plateaux, des théières et des lanternes décorées.</p>
+                <p><strong>Bois :</strong> Le bois de cèdre du Moyen Atlas est sculpté pour faire des portes, des meubles avec marqueterie.</p>
+            </article>
+        </section>
+
+       
+        <section id="langues" class="section-contenu partie-langues">
+            <h2>Les Langues du Maroc</h2>
+
+            <article class="boite-info">
+                <h3>L'Arabe Marocain (Darija)</h3>
+                <p>C'est la langue que les Marocains parlent tous les jours. La darija est un mélange d'arabe classique, d'amazigh (berbère), de français et d'espagnol.</p>
+                <p>Il y a des différences entre les régions (dialectes régionaux). On ne l'utilise pas à l'école ou dans les documents officiels.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>L'Amazigh (Tamazight)</h3>
+                <p>C'est la langue des Berbères, parlée par environ 50% de la population. Depuis 2011, l'amazigh est une <span class="texte-important">langue officielle du Maroc</span>.</p>
+                <p><strong>Les trois dialectes principaux :</strong></p>
+                <ul class="liste-personnalisee">
+                    <li><strong>Tarifit :</strong> parlé dans le Rif (nord du Maroc)</li>
+                    <li><strong>Tamazight :</strong> parlé dans le Moyen Atlas (centre)</li>
+                    <li><strong>Tachelhit :</strong> parlé dans le Haut Atlas et le Sous (sud)</li>
+                </ul>
+            </article>
+
+            <article class="boite-info">
+                <h3>L'Arabe Classique</h3>
+                <p>C'est la langue de l'école, des journaux et de la télévision. Les gens ne la parlent pas à la maison. Elle a un grand prestige car c'est la langue du Coran et de l'éducation.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>Évolution de l'Amazigh dans l'Histoire</h3>
+                <p><strong>Période ancienne (7ème-15ème siècles) :</strong> Les Berbères utilisaient une écriture appelée libyque (ancêtre du tifinagh moderne). Avec l'arrivée des Arabes, l'arabisation a progressé.</p>
+                <p><strong>Colonisation (1912-1956) :</strong> La France et l'Espagne ont imposé leurs langues. L'amazigh n'était plus écrit, seulement parlé.</p>
+                <p><strong>Après l'indépendance (1956-2000) :</strong> Le gouvernement a favorisé l'arabe. L'amazigh restait marginalisé.</p>
+                <p><strong>Reconnaissance (depuis 2011) :</strong> La nouvelle Constitution reconnaît l'amazigh comme langue officielle. Maintenant il y a des médias, des écoles et des livres en amazigh.</p>
+            </article>
+        </section>
+
+        
+        <section id="edition" class="section-contenu">
+            <h2>L'Édition et le Livre au Maroc</h2>
+
+            <article class="boite-info">
+                <h3>Le Secteur de l'Édition</h3>
+                <p>Le Maroc compte environ <span class="texte-important">300 éditeurs</span> qui produisent 4 à 5 millions de livres par an. Le marché grandit avec des salons importants à Fès, Marrakech et Casablanca.</p>
+                <p><strong>Le Salon du Livre de Casablanca</strong> accueille plus de 40 000 visiteurs chaque année.</p>
+            </article>
+
+            <h3>Les Différentes Littératures</h3>
+
+            <article class="boite-info">
+                <h3>📚 Littérature en Français</h3>
+                <p>Le Maroc a une tradition littéraire francophone forte avec des auteurs connus dans le monde entier :</p>
+                <ul class="liste-personnalisee">
+                    <li>Tahar Ben Jelloun</li>
+                    <li>Abdellatif Laâbi</li>
+                    <li>Youssef Ziedan</li>
+                </ul>
+            </article>
+
+            <article class="boite-info">
+                <h3>📖 Littérature en Arabe</h3>
+                <p>La production en arabe augmente beaucoup ces dernières années. On trouve de la poésie, des romans historiques et des essais politiques.</p>
+            </article>
+
+            <article class="boite-info">
+                <h3>📝 Littérature en Amazigh</h3>
+                <p>Très récente ! Elle se développe depuis 2011 avec la reconnaissance officielle de la langue. On produit des contes, de la poésie et des traductions de romans.</p>
+            </article>
+
+            <h3>Les Problèmes de l'Édition au Maroc</h3>
+
+            <article class="boite-info">
+                <h3>Problèmes Économiques</h3>
+                <ul class="liste-personnalisee">
+                    <li>Les coûts d'impression sont très chers (papier, énergie)</li>
+                    <li>Piratage numérique (PDF gratuits sur internet)</li>
+                    <li>Prix des livres trop élevés par rapport aux salaires</li>
+                    <li>Financement difficile pour les éditeurs</li>
+                </ul>
+            </article>
+
+            <article class="boite-info">
+                <h3>Problèmes Sociaux et Culturels</h3>
+                <ul class="liste-personnalisee">
+                    <li>Taux d'analphabétisme environ 27% (60% dans les zones rurales)</li>
+                    <li>Peu de bibliothèques publiques</li>
+                    <li>Tradition orale plus forte que la lecture</li>
+                    <li>Débats sur quelle langue utiliser (français, arabe ou amazigh)</li>
+                </ul>
+            </article>
+        </section>
+        
+    </main>
+
+  
+    <a href="#debut" class="bouton-retour-haut">↑</a>
+    <a href="mailto:sarhiri.ayoub@example.com" class="bouton-email">✉ Email</a>
+
+   
+    <footer>
+        <pre class="art-ascii">
+  ___   _   ___ _  _ ___ ___ ___     ___   _____  _   _ ___ 
+ / __| /_\ | _ \ || |_ _| _ \_ _|   /_\ \ / / _ \| | | | _ )
+ \__ \/ _ \|   / __ || ||   /| |   / _ \ V / (_) | |_| | _ \
+ |___/_/ \_\_|_\_||_|___|_|_\___| /_/ \_\_| \___/ \___/|___/
+                                                            
+        
+        <p class="copyright">©SARHIRI AYOUB - 2026 - Tous droits réservés</p>
+        
+        <p style="margin-top: 15px; font-size: 14px; color: #999;">
+            Sources : UNESCO, Ministère de la Culture Marocain
+        </p>
+    </footer>
+
+</body>
+</html>
